@@ -30,7 +30,7 @@ export default function Index() {
       <hr className="border-1 bg-gray-500 my-20"/>
       <div className="px-4 md:px-8">
         <h2 className="text-xl font-semibold">myBH Bentos</h2>
-        <p className="text-lg font-regular text-gray-800 pb-12">Some sections, like myBH's top home page section, may benefit from implementation using flexbox rather than CSS grid.</p>
+        <p className="text-lg font-regular text-gray-800 pb-12">Some sections, like the top home page section in myBH, may benefit from implementation using flexbox rather than CSS grid.</p>
         <div className="flex flex-col md:flex-row  gap-6 xl:gap-10">
           <div id="green box" className="h-96 bg-green-800 md:basis-1/3 rounded-3xl p-6">
             <h3 className="text-white font-semibold text-xl">Green box</h3> 
