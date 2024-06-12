@@ -27,28 +27,7 @@ export default function Index() {
           <div className="bg-blue-300 grid-cols-1 invisible lg:visible"></div>
         </div>
       </div>
-      <hr className="border-1 bg-gray-500 my-20"/>
-      <div className="px-4 md:px-8">
-        <h2 className="text-xl font-semibold">myBH Bentos</h2>
-        <p className="text-lg font-regular text-gray-800 pb-12">Some sections, like the top home page section in myBH, may benefit from implementation using flexbox rather than CSS grid.</p>
-        <div className="flex flex-col md:flex-row  gap-6 xl:gap-10">
-          <div id="green box" className="h-96 bg-green-800 md:basis-1/3 rounded-3xl p-6">
-            <h3 className="text-white font-semibold text-xl">Green box</h3> 
-          </div>
-          <div id="benefit summary" className="h-96 flex-auto border border-zinc-600 border-1 rounded-3xl p-6 ">
-            <h3 className="font-semibold text-xl text-gray-800">Benefit summary</h3>
-          </div>
-        </div> 
-        <div className="pt-6 xl:pt-10 flex flex-col md:flex-row gap-6 xl:gap-10">
-          <div id="benefit summary" className="flex-1 h-96 border border-zinc-600 border-1 rounded-3xl p-6 ">
-              <h3 className="font-semibold text-xl text-gray-800">Upcoming</h3>
-            </div>
-          
-          <div id="benefit summary" className="flex-1 h-96 border border-zinc-600 border-1 rounded-3xl p-6 ">
-              <h3 className="font-semibold text-xl text-gray-800">My Family</h3>
-          </div>
-          </div>
-      </div>
+      
       </div>
     </main>
   );
